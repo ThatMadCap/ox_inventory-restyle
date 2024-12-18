@@ -1,3 +1,6 @@
+![ox_inventory-restyle-1](https://github.com/user-attachments/assets/41cec906-41e0-4b51-b2bf-aea7242373a5)
+![ox_inventory-restyle-2](https://github.com/user-attachments/assets/8ced1948-64e6-4df5-a8ed-4d3ae0855f91)
+
 # ox_inventory
 
 A complete inventory system for FiveM, implementing items, weapons, shops, and more without any strict framework dependency.
