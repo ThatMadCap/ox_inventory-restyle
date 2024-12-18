@@ -28,9 +28,9 @@ const InventoryGrid: React.FC<{ inventory: Inventory }> = ({ inventory }) => {
       <div className="inventory-grid-wrapper" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>
         <div>
           <div className="inventory-grid-header-wrapper">
-            <p>{inventory.label}</p>
+            <p className="inventory-grid-header-label">{inventory.label}</p>
             {inventory.maxWeight && (
-              <p>
+              <p className="inventory-grid-header-weight">
                 {weight / 1000}/{inventory.maxWeight / 1000}kg
               </p>
             )}
